@@ -1,2 +1,1 @@
-# spncryn.github.io
-I have seen the scattering of countless, myriad souls.
+If I could be who I wanted all the time...
