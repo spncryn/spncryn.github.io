@@ -9,50 +9,42 @@
   <!-- Scripts -->
   <script src="scripts/mors.min.js"></script>
 </head>
-
 <!--HEADER-->
-  <div class="hover-space">
-    <header>
-      <div class="logo"><a href="index.html" class="active">仕方が無い</a></div>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">home</a></li>
-          <li><a href="projects.html">projects</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
-
-<body>
-<h1>Projects</h1>
-<p>A collection of projects I've been working on.</p>
-<br>
-<br>
-
-<!-- PROJECT GRID -->
-<div class="projects">
-  <div class="box a"><a href="https://spncryn.itch.io/exegesis">
-  <img src="https://img.itch.zone/aW1hZ2UvNTU4NzAvOTI2MDY0LnBuZw==/315x250%23c/41aEep.png" alt="The Exegesis of John the Martyr" style="border:0;">
-</a></div>
-  <div class="box b"><a href="https://spncryn.itch.io/midnight-animal">
-  <img src="https://img.itch.zone/aW1hZ2UvMTk3OTUwLzkyNjA2OC5wbmc=/315x250%23c/bE33ak.png" alt="The Document of Midnight Animal" style="border:0;">
-</a></div>
+<div class="hover-space">
+  <header>
+    <div class="logo"><a href="index.html">仕方が無い</a></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="projects.html" class="active">projects</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
 </div>
-
-<br>
-<br>
-<br>
-<footer>
-  <!--Mors by Josh Avanier | MIT-->
-  <span id="mors">0.00%</span>
-  <script>
-  var d = new Date(1997, 9, 24)
-  document.getElementById("mors").innerHTML =
-  Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
-  </script>
-  <!--<span><a href="http://www.iep.utm.edu/schopenh/" class="left">Previous</a></span>
-  <span><a href="https://plato.stanford.edu/entries/schopenhauer/" class="right">Next</a></span>-->
-</footer>
+<body>
+  <div class = "text">
+    <h1>Projects</h1>
+    <p>A collection of projects I've been working on.</p>
+  </div>
+  <!-- PROJECT GRID -->
+  <div class="projects">
+    <div class="box a"><a href="https://spncryn.itch.io/exegesis">
+      <img src="https://img.itch.zone/aW1hZ2UvNTU4NzAvOTI2MDY0LnBuZw==/315x250%23c/41aEep.png" alt="The Exegesis of John the Martyr" style="border:0;">
+    </a></div>
+    <div class="box b"><a href="https://spncryn.itch.io/midnight-animal">
+      <img src="https://img.itch.zone/aW1hZ2UvMTk3OTUwLzkyNjA2OC5wbmc=/315x250%23c/bE33ak.png" alt="The Document of Midnight Animal" style="border:0;">
+    </a></div>
+  </div>
+  <!--FOOTER-->
+  <footer>
+    <!--Mors by Josh Avanier | MIT-->
+    <span id="mors">0.00%</span>
+    <script>
+    var d = new Date(1997, 9, 24)
+    document.getElementById("mors").innerHTML =
+    Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
+    </script>
+  </footer>
 </body>

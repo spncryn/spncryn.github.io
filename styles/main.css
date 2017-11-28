@@ -1,195 +1,179 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
-
 body {
-  background: #1e1e1e;
-  background-image: url(https://img.itch.zone/aW1hZ2UyL3VzZXIvMTMzNzQ3LzkyNjA4Ny5wbmc=/original/OCY9XL.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
-  padding: 2rem;
-  font-family: 'Inconsolata', sans-serif;
-  width: 45%;
-  margin: auto;
-  text-align: justify;
-  line-height: 24px;
+    background: #1e1e1e;
+    background-image: url(https://img.itch.zone/aW1hZ2UyL3VzZXIvMTMzNzQ3LzkyNjA4Ny5wbmc=/original/OCY9XL.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    padding: 2rem;
+    font-family: 'Inconsolata', sans-serif;
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+    line-height: 24px;
 }
-
 p {
     color: #e1e1e1;
     text-align: center;
     margin: 0 auto;
 }
-
 a {
     color: #e1e1e1;
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: line-through;
-    color: #b48d22;
+    color: #1e1e1e;
 }
-
 h1 {
-  color:#e1e1e1;
-  text-align: center;
-  margin: 0 auto;
-  padding: 2em;
+    color: #e1e1e1;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
 }
-
-.left {
-  float: left;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 12px;
-  line-height: 6px;
-  padding-right: 6px;
-  text-align: center;
-  color: #e1e1e1;
-  padding: 20px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px;
+.text {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
-
-.right {
-  float: right;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 12px;
-  line-height: 6px;
-  padding-right: 6px;
-  text-align: center;
-  color: #e1e1e1;
-  padding: 20px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px;
-}
-
-.end {
-  display: block;
-  margin: auto;
-  width: 50%;
-}
-
 .banner {
-  width: 100%;
-  display:block;
-  margin: auto;
-  padding-top: 2em;
-  padding-bottom:2em;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-
 .author {
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 14px;
-  line-height: 16px;
-  padding: 12px;
-  text-align: center;
-  width: 60%;
-  margin: auto;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
-
 span {
-  text-align: center;
-  color: #b48d22;
-  margin: auto;
-  display: block;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-li a.active {
-  color: #b48d22;
+    text-align: center;
+    color: #b48d22;
+    margin: auto;
+    display: block;
 }
 
 /* HEADER */
-.hover-space, header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;   
-  z-index: 99;
-  text-align: center;
-  height: 70px;
-  background-color: #b48d22;
-  font-family: 'Inconsolata', sans-serif;
-}
 
-.hover-space:hover header {
-  opacity: 1;
-  transition: 0.5s;
+ul {
+    list-style: none;
 }
-
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+li a.active {
+    color: #1e1e1e;
+}
+.hover-space,
 header {
-  text-align: left;
-  line-height: 35px;
-  text-transform: uppercase;
-  opacity: 0;
-  transition: 0.5s;
-  transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  background-color: #1e1e1e;
-  animation:          fadeout 1s;
-  -webkit-animation:  fadeout 1s;
-  -moz-animation:     fadeout 1s;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    text-align: center;
+    height: 70px;
+    font-family: 'Inconsolata', sans-serif;
 }
-
+.hover-space:hover header {
+    opacity: 1;
+    transition: 0.5s;
+}
+header {
+    width: 100%;
+    text-align: left;
+    line-height: 35px;
+    text-transform: lowercase;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    animation: fadeout 1s;
+    -webkit-animation: fadeout 1s;
+    -moz-animation: fadeout 1s;
+}
 header .logo {
-  position: absolute;
-  left: 20px;  top:16px;
-  color: #e1e1e1;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    color: #e1e1e1;
+}
+header nav {
+    position: absolute;
+    right: 20px;
+    color: #e1e1e1;
+}
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 12px;
+    line-height: 6px;
+    padding-right: 6px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    animation: fadeout 1s;
+    -webkit-animation: fadeout 1s;
+    -moz-animation: fadeout 1s;
 }
 
-header nav {
-  position: absolute;
-  right: 20px;
-  color: #e1e1e1;
+footer:hover {
+    opacity: 1;
+    transition: 0.5s;
 }
 
 /* Keyframes */
+
 @keyframes fadeout {
-  0%      { opacity: 1; }
-  75%     { opacity: 1; }
-  100%    { opacity: 0; }
+    0% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
-
 @-webkit-keyframes fadeout {
-  0%      { opacity: 1; }
-  75%     { opacity: 1; }
-  100%    { opacity: 0; }
+    0% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
-
 @-moz-keyframes fadeout {
-  0%      { opacity: 1; }
-  75%     { opacity: 1; }
-  100%    { opacity: 0; }
-}
-
-/* FOOTER */
-footer {
-  position: fixed;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 12px;
-  line-height: 6px;
-  padding-right: 6px;
-  text-align: center;
-}
-
-footer p {
-  font-weight: 600;    
+    0% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
