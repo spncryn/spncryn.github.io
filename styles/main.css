@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  background: #1e1e1e;
+  padding: 2rem;
+  font-family: 'Inconsolata', sans-serif;
+  width: 45%;
+  margin: auto;
+  text-align: justify;
+  line-height: 24px;
+}
+
+p {
+    color: #e1e1e1;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: #e1e1e1;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: #b48d22;
+}
+
+h1 {
+  color:#e1e1e1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+header {
+  text-align: center;
+  font-family: 'Inconsolata', sans-serif;
+  position: relative;
+  line-height: 200%;
+}
+
+.footer {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 12px;
+  line-height: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 12px;
+  line-height: 6px;
+  padding-right: 6px;
+  text-align: center;
+  color: #e1e1e1;
+  padding: 20px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.right {
+  float: right;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 12px;
+  line-height: 6px;
+  padding-right: 6px;
+  text-align: center;
+  color: #e1e1e1;
+  padding: 20px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.end {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.banner {
+  width: 100%;
+  display:block;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom:2em;
+}
+
+.author {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+span {
+  text-align: center;
+  color: #b48d22;
+  margin: auto;
+  display: block;
+}
