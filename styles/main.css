@@ -2,6 +2,11 @@
 
 body {
   background: #1e1e1e;
+  background-image: url(https://img.itch.zone/aW1hZ2UyL3VzZXIvMTMzNzQ3LzkyNjA4Ny5wbmc=/original/OCY9XL.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
   padding: 2rem;
   font-family: 'Inconsolata', sans-serif;
   width: 45%;
@@ -33,25 +38,6 @@ h1 {
   text-align: center;
   margin: 0 auto;
   padding: 2em;
-}
-
-h2 {
-  font-weight: 100;
-}
-
-header {
-  text-align: center;
-  font-family: 'Inconsolata', sans-serif;
-  position: relative;
-  line-height: 200%;
-}
-
-.footer {
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 12px;
-  line-height: 6px;
-  padding-right: 6px;
-  text-align: center;
 }
 
 .left {
@@ -113,4 +99,101 @@ span {
   color: #b48d22;
   margin: auto;
   display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+li a.active {
+  color: #b48d22;
+}
+
+/* HEADER */
+.hover-space, header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;   
+  text-align: center;
+  background-color: #b48d22;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+.hover-space {  
+  height: 70px;
+  z-index: 99;
+}
+
+.hover-space:hover header {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+header {
+  height: 70px;
+  text-align: left;
+  line-height: 35px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  background-color: #1e1e1e;
+  animation:          fadeout 4s;
+  -webkit-animation:  fadeout 4s;
+  -moz-animation:     fadeout 4s;  
+}
+
+header .logo {
+  position: absolute;
+  left: 20px;  top:16px;
+  color: #e1e1e1;
+}
+
+header nav {
+  position: absolute;
+  right: 20px;
+  color: #e1e1e1;
+}
+
+/* Keyframes */
+@keyframes fadeout {
+  0%      { opacity: 1; }
+  75%     { opacity: 1; }
+  100%    { opacity: 0; }
+}
+
+@-webkit-keyframes fadeout {
+  0%      { opacity: 1; }
+  75%     { opacity: 1; }
+  100%    { opacity: 0; }
+}
+
+@-moz-keyframes fadeout {
+  0%      { opacity: 1; }
+  75%     { opacity: 1; }
+  100%    { opacity: 0; }
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 12px;
+  line-height: 6px;
+  padding-right: 6px;
+  text-align: center;
+}
+
+footer p {
+  font-weight: 600;    
 }
