@@ -120,14 +120,11 @@ li a.active {
   top: 0;
   left: 0;
   right: 0;   
+  z-index: 99;
   text-align: center;
+  height: 70px;
   background-color: #b48d22;
   font-family: 'Inconsolata', sans-serif;
-}
-
-.hover-space {  
-  height: 70px;
-  z-index: 99;
 }
 
 .hover-space:hover header {
@@ -136,7 +133,6 @@ li a.active {
 }
 
 header {
-  height: 70px;
   text-align: left;
   line-height: 35px;
   text-transform: uppercase;
@@ -145,9 +141,9 @@ header {
   transition-delay: 0s;
   -webkit-transition-delay: 0s;
   background-color: #1e1e1e;
-  animation:          fadeout 4s;
-  -webkit-animation:  fadeout 4s;
-  -moz-animation:     fadeout 4s;  
+  animation:          fadeout 1s;
+  -webkit-animation:  fadeout 1s;
+  -moz-animation:     fadeout 1s;  
 }
 
 header .logo {
