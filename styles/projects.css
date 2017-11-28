@@ -129,19 +129,19 @@ footer {
     line-height: 6px;
     padding-right: 6px;
     text-align: center;
-    opacity: 0;
+    /*opacity: 0;
     transition: 0.5s;
     transition-delay: 0s;
     -webkit-transition-delay: 0s;
     animation: fadeout 1s;
     -webkit-animation: fadeout 1s;
-    -moz-animation: fadeout 1s;
+    -moz-animation: fadeout 1s;*/
 }
 
-footer:hover {
+/*footer:hover {
     opacity: 1;
     transition: 0.5s;
-}
+}*/
 
 /* Keyframes */
 
