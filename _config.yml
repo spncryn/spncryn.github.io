@@ -1,0 +1,10 @@
+name: Spencer Yan
+markdown: kramdown
+permalink: title
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+layout: page
