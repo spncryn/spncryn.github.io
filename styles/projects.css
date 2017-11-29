@@ -89,22 +89,22 @@ header {
     height: 70px;
     font-family: 'Inconsolata', sans-serif;
 }
-.hover-space:hover header {
+/*.hover-space:hover header {
     opacity: 1;
     transition: 0.5s;
-}
+}*/
 header {
     width: 100%;
     text-align: left;
     line-height: 35px;
     text-transform: lowercase;
-    opacity: 0;
+    /*opacity: 0;
     transition: 0.5s;
     transition-delay: 0s;
     -webkit-transition-delay: 0s;
     animation: fadeout 1s;
     -webkit-animation: fadeout 1s;
-    -moz-animation: fadeout 1s;
+    -moz-animation: fadeout 1s;*/
 }
 header .logo {
     position: absolute;
