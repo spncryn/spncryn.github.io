@@ -9,14 +9,10 @@ body {
     line-height: 24px;
 }
 
-.text {
-    margin: 0;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+.center {
+    padding-top: 5%;
 }
+
 /* GRID */
 
 .projects {
@@ -28,7 +24,7 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-33%, -50%)
+    transform: translate(-33%, 75%)
 }
 .box {
     margin-left: auto;
