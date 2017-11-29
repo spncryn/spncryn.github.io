@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
+:root {
+    --nigredo:#1e1e1e;
+    --albedo: #e1e1e1;
+    --citrinitas: #b48d22;
+    --rubedo: #9E2835;
+}
+
 html {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 p {
-    color: #e1e1e1;
+    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
 }
 a {
-    color: #e1e1e1;
+    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
@@ -20,7 +27,7 @@ a:hover {
     text-decoration: line-through;
 }
 h1 {
-    color: #e1e1e1;
+    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
     padding: 2em;
@@ -44,7 +51,7 @@ h1 {
 }
 span {
     text-align: center;
-    color: #b48d22;
+    color: var(--citrinitas);
     margin: auto;
     display: block;
 }
@@ -89,7 +96,7 @@ header .logo {
     position: absolute;
     left: 20px;
     top: 16px;
-    color: #e1e1e1;
+    color: var(--albedo);
 }
 
 header nav {
