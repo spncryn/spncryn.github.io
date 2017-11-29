@@ -45,6 +45,10 @@ li a.active {
    color: #b48d22;
 }
 
+a:hover{
+    color: #b48d22;
+}
+
 header nav {
-    color: #e1e1e1;
+    color: #b48d22;
 }

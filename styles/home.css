@@ -110,6 +110,10 @@ li a.active {
     color: #1e1e1e;
 }
 
+a:hover {
+    color: #1e1e1e;
+}
+
 header nav {
     color: #e1e1e1;
 }
