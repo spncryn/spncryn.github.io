@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body {
+    background: #e1e1e1;
+    padding: 2rem;
+    font-family: 'Inconsolata', sans-serif;
+    width: 45%;
+    margin: auto;
+    text-align: justify;
+    line-height: 24px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.center{
+    padding-top: 10%;
+}
+
+p, h1 {
+        color: #1e1e1e;
+}
+
+li a.active {
+   color: #b48d22;
+}
+
+a {
+    color: #1e1e1e;
+}
+
+a:hover{
+    color: #b48d22;
+}
+
+header nav {
+    color: #b48d22;
+}
