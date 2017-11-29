@@ -31,7 +31,31 @@
 <body>
 
     <!--TEXT-->
-    <div class="text">I guess I was somebody I was not.</div>
+      <div class="center" align="center">
+        <script language="JavaScript">
+
+        // ==============================================
+        // Copyright 2004 by CodeLifter.com
+        // Free for all; but please leave in this header.
+        // ==============================================
+
+        var text = new Array()
+
+        text[0] = "I guess I was somebody I was not.";
+        text[1] = "I have seen the scattering of countless, myriad souls.";
+        text[2] = "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left, and could say, I used everything you gave me.";
+        text[3] = "History, Stephen said, is a nightmare from which I am trying to awake.";
+        text[4] = "He wishes he had never entered the funhouse. But he has. Then he wishes he were dead. But he's not. Therefore he will construct funhouses for others and be their secret operator — though he would rather be among the lovers for whom funhouses are designed.";
+        text[5] = "This is not for you.";
+        text[6] = "What a joke.";
+        text[7] = "A brightness shining in the darkness.";
+
+        var Q = text.length;
+        var get_text=Math.round(Math.random()*(Q-1));
+        function draw_text(){document.write(text[get_text]);}
+        draw_text();
+        </script>
+</div>
 
     <!--FOOTER-->
     <footer>
@@ -43,4 +67,5 @@
                 Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
         </script>
     </footer>
+
 </body>

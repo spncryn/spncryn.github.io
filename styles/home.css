@@ -10,17 +10,18 @@ body {
     font-family: 'Inconsolata', sans-serif;
     width: 45%;
     margin: auto;
-    text-align: justify;
+    text-align: center;
     line-height: 24px;
 }
 
-.text {
-    font-size: 18px;
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    margin-right: -50%;
+.center {
+    font-size: 20px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 25%;
     transform: translate(-50%, -50%) -webkit-animation: fadein 4s;
     /* Safari, Chrome and Opera > 12.1 */
     
@@ -90,21 +91,6 @@ body {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-.author {
-    font-family: 'Inconsolata', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 12px;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
-span {
-    text-align: center;
-    color: #b48d22;
-    margin: auto;
-    display: block;
-}
 
 li a.active {
     color: #1e1e1e;
@@ -117,3 +103,4 @@ a:hover {
 header nav {
     color: #e1e1e1;
 }
+
