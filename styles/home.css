@@ -111,7 +111,5 @@ li a.active {
 }
 
 header nav {
-    position: absolute;
-    right: 20px;
     color: #e1e1e1;
 }

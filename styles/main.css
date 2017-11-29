@@ -87,6 +87,10 @@ header .logo {
     color: #e1e1e1;
 }
 
+header nav {
+    position: absolute;
+    right: 24px;
+}
 /* FOOTER */
 
 footer {
@@ -110,10 +114,10 @@ footer {
 /*footer:hover {
     opacity: 1;
     transition: 0.5s;
-}*/
+}
 /* Keyframes */
 
-@keyframes fadeout {
+/*@keyframes fadeout {
     0% {
         opacity: 1;
     }
