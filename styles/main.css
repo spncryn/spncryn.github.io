@@ -33,12 +33,6 @@ h1 {
     padding: 2em;
 }
 
-span {
-    text-align: center;
-    color: var(--citrinitas);
-    margin: auto;
-    display: block;
-}
 /* HEADER */
 
 ul {
