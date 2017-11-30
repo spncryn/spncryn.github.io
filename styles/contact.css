@@ -75,5 +75,9 @@ color: var(--albedo);*/
 
 a:hover {
     text-decoration: line-through;
-    color: #1e1e1e;
+    color: var(--nigredo);
+}
+
+footer {
+  color: var(--citrinitas);
 }

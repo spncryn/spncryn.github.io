@@ -72,13 +72,14 @@ header {
 }
 header .logo {
     position: absolute;
-    left: 20px;
+    left: 32px;
+    top:14px;
     color: var(--albedo);
 }
 
 header nav {
     position: absolute;
-    right: 24px;
+    right: 32px;
 }
 /* FOOTER */
 
