@@ -80,6 +80,7 @@ header .logo {
 header nav {
     position: absolute;
     right: 32px;
+    top: -4px;
 }
 /* FOOTER */
 
