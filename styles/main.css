@@ -94,6 +94,7 @@ footer {
     line-height: 6px;
     padding-right: 6px;
     text-align: center;
+    color: var(--citrinitas);
     /*opacity: 0;
     transition: 0.5s;
     transition-delay: 0s;
