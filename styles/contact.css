@@ -1,0 +1,89 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  margin: 30px auto;
+  width: 480px;
+  background: #9E2835;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Inconsolata';
+}
+
+a {
+  text-decoration: none;
+  float: left;
+  margin-right: 10px;
+}
+a:hover #fly {
+  margin-top: -200px;
+  opacity: 0;
+}
+a:hover #fly-in {
+
+  opacity: 1;
+}
+
+#fly {
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border: 5px solid #000;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: #000;
+  margin-top: -100px;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+#fly-in {
+  text-align: center;
+  display: block;
+  font-size: 4em;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+/* ICONS */
+i[class="fa fa-facebook"] {
+  border: 5px solid #3B5999;
+  color: #3B5999;
+}
+
+i[class="fa fa-tumblr"] {
+  border: 5px solid #35465c;
+  color: #35465c;
+}
+
+i[class="fa fa-twitter"] {
+  border: 5px solid #55acee;
+  color: #55acee;
+}
+
+i[class="fa fa-google"] {
+  border: 5px solid #d34836;
+  color: #d34836;
+}
+
+i[class="fa fa-instagram"] {
+  border: 5px solid #967553;
+  color: #967553;
+}
+
+i[class="fa fa-pinterest"] {
+  border: 5px solid #C92228;
+  color: #C92228;
+}
+
+i[class="fa fa-github"] {
+  border: 5px solid #e1e1e1;
+  color: #e1e1e1;
+}

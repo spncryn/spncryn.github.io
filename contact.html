@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>about</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+  <!-- Scripts -->
+  <script src="scripts/mors.min.js"></script>
+</head>
+<!--HEADER-->
+<div class="hover-space">
+  <header>
+    <div class="logo"><a href="home">仕方が無い</a></div>
+    <nav>
+      <ul>
+        <li><a href="home">home</a></li>
+        <li><a href="projects">projects</a></li>
+        <li><a href="about.html" class="active">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<body>
+  <div class = "center">
+    <h2>What's on your mind?</h2>
+    <a href="https://www.twitter.com/" target="_blank">
+      <i class="fa fa-twitter" id="fly-in"></i>
+      <i class="fa fa-twitter" id="fly"></i>
+    </a>
+    <a href="http://www.instagram.com/" target="_blank">
+      <i class="fa fa-instagram" id="fly-in"></i>
+      <i class="fa fa-instagram" id="fly"></i>
+    </a>
+    <a href="https://www.github.com/" target="_blank">
+      <i class="fa fa-github" id="fly-in"></i>
+      <i class="fa fa-github" id="fly"></i>
+    </a>
+    <a href="https://www.tumblr.com/" target="_blank">
+      <i class="fa fa-tumblr" id="fly-in"></i>
+      <i class="fa fa-tumblr" id="fly"></i>
+    </a>
+  </div>
+  <!--FOOTER-->
+  <footer>
+    <!--Mors by Josh Avanier | MIT-->
+    <span id="mors">0.00%</span>
+    <script>
+    var d = new Date(1997, 9, 24)
+    document.getElementById("mors").innerHTML =
+    Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
+    </script>
+  </footer>
+</body>
