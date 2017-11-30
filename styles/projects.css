@@ -33,7 +33,7 @@ body {
     transition: all 0.3s ease;
 }
 .box:hover {
-    box-shadow: inset 0 0 0 10px var(--nigredo);
+    box-shadow: inset 0 0 0 10px var(--albedo);
 }
 
 li a.active {
