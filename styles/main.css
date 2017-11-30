@@ -33,22 +33,6 @@ h1 {
     padding: 2em;
 }
 
-.banner {
-    width: 100%;
-    display: block;
-    margin: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.author {
-    font-family: 'Inconsolata', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 12px;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
 span {
     text-align: center;
     color: var(--citrinitas);

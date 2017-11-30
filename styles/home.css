@@ -12,14 +12,6 @@ body {
     line-height: 24px;
 }
 
-.banner {
-    width: 100%;
-    display: block;
-    margin: auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
 li a.active {
     color: var(--nigredo);
 }
