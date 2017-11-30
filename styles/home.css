@@ -1,5 +1,4 @@
 body {
-    background: #1e1e1e;
     background-image: url(https://img.itch.zone/aW1hZ2UyL3VzZXIvMTMzNzQ3LzkyNjA4Ny5wbmc=/original/OCY9XL.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,14 +21,14 @@ body {
 }
 
 li a.active {
-    color: #1e1e1e;
+    color: var(--nigredo);
 }
 
 a:hover {
-    color: #1e1e1e;
+    color: var(--nigredo);
 }
 
 header nav {
-    color: #e1e1e1;
+    color: var(--albedo);
 }
 
