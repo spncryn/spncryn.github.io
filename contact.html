@@ -1,58 +1,59 @@
 <!DOCTYPE html>
-<head>
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <title>about</title>
-  
-  <!--  Styles  -->
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/contact.css">
-  <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
-  <!-- Scripts -->
-  <script src="scripts/mors.min.js"></script>
-</head>
-<!--HEADER-->
-<div class="hover-space">
-  <header>
-    <div class="logo"><a href="home">仕方が無い</a></div>
-    <nav>
-      <ul>
-        <li><a href="home">home</a></li>
-        <li><a href="projects">projects</a></li>
-        <li><a href="about.html" class="active">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-<body>
-  <div class = "center">
-    <h2>What's on your mind?</h2>
-    <a href="https://www.twitter.com/" target="_blank">
-      <i class="fa fa-twitter" id="fly-in"></i>
-      <i class="fa fa-twitter" id="fly"></i>
-    </a>
-    <a href="http://www.instagram.com/" target="_blank">
-      <i class="fa fa-instagram" id="fly-in"></i>
-      <i class="fa fa-instagram" id="fly"></i>
-    </a>
-    <a href="https://www.github.com/" target="_blank">
-      <i class="fa fa-github" id="fly-in"></i>
-      <i class="fa fa-github" id="fly"></i>
-    </a>
-    <a href="https://www.tumblr.com/" target="_blank">
-      <i class="fa fa-tumblr" id="fly-in"></i>
-      <i class="fa fa-tumblr" id="fly"></i>
-    </a>
+<html lang="en" >
+  <head>
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <title>contact</title>
+    
+    <!--  Styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+    <!-- Scripts -->
+    <script src="scripts/mors.min.js"></script>
+    
+  </head>
+  <!--HEADER-->
+  <div class="hover-space">
+    <header>
+      <div class="logo"><a href="home">仕方が無い</a></div>
+      <nav>
+        <ul>
+          <li><a href="home">home</a></li>
+          <li><a href="projects">projects</a></li>
+          <li><a href="about">about</a></li>
+          <li><a href="contact" class="active">contact</a></li>
+        </ul>
+      </nav>
+    </header>
   </div>
-  <!--FOOTER-->
-  <footer>
-    <!--Mors by Josh Avanier | MIT-->
-    <span id="mors">0.00%</span>
-    <script>
-    var d = new Date(1997, 9, 24)
-    document.getElementById("mors").innerHTML =
-    Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
-    </script>
-  </footer>
-</body>
+  <body>
+    <div class="center">
+      <div class="col-md-12 text-center ">
+        <ul class="list-inline social-links">
+          <li><a href="http://spncryn.wordpress.com/" class="btn-social btn-outline" title="WordPress"><i class="icon ion-social-wordpress"></i></a></li>
+          <li><a href="https://spncryn.itch.io/" class="btn-social btn-outline" title="itch.io"><i class="ion ion-android-apps"></i></a>
+          <li><a href="https://github.com/spncryn" class="btn-social btn-outline" title="GitHub"><i class="icon ion-social-github"></i></a></li>
+          <li><a href="https://twitter.com/spncryn" class="btn-social btn-outline" title="Twitter"><i class="icon ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/spncryn/" class="btn-social btn-outline" title="Instagram"><i class="ion ion-social-instagram"></i></a>
+          <li><a href="https://sutemi-waza.tumblr.com/" class="btn-social btn-outline" title="Tumblr"><i class="ion ion-social-tumblr"></i></a>
+          <li><a href="https://www.youtube.com/channel/UC6HeE14KSv_Ls2qALTbmKuw?" class="btn-social btn-outline" title="YouTube"><i class="ion ion-social-youtube"></i></a>
+          <li><a href="mailto:spenceryan123@gmail.com" class="btn-social btn-outline" title="Email"><i class="icon ion-android-mail"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+      <!--Mors by Josh Avanier | MIT-->
+      <span id="mors">0.00%</span>
+      <script>
+      var d = new Date(1997, 9, 24)
+      document.getElementById("mors").innerHTML =
+      Mors.pro(d).toFixed(2) + "%" + " | " + Mors.ndl(d) + "P" + " | " + Mors.etr(d).toFixed(0) + "R" + " | " + Mors.eyd(d)
+      </script>
+    </footer>
+  </body>
+</html>

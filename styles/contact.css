@@ -1,89 +1,79 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
-  margin: 30px auto;
-  width: 480px;
-  background: #9E2835;
+    background: var(--rubedo);
 }
 
 h2 {
-  font-size: 2em;
-  text-align: center;
   font-family: 'Inconsolata';
+  padding: 1em;
+  color: var(--albedo);
 }
 
-a {
-  text-decoration: none;
-  float: left;
-  margin-right: 10px;
+.center {
+  margin-top: -2.5%;
 }
-a:hover #fly {
-  margin-top: -200px;
-  opacity: 0;
-}
-a:hover #fly-in {
-
-  opacity: 1;
+.btn-outline { 
+ border: solid 1px var(--albedo);    
+ font-size: 24px; 
+ color: var(--albedo);
+ background: 0 0; 
+ transition: all .3s ease-in-out; 
 }
 
-#fly {
-  font-size: 4em;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  border: 5px solid #000;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  color: #000;
-  margin-top: -100px;
-  -webkit-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active { 
+  border: solid 1px var(--albedo);    
+  color: var(--albedo); 
+  background: var(--albedo); 
 }
 
-#fly-in {
-  text-align: center;
-  display: block;
-  font-size: 4em;
-  opacity: 0;
-  -webkit-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+.btn-social { 
+  display: inline-block; 
+  width: 48px; 
+  height: 48px; 
+  border: 1px solid var(--albedo); 
+  border-radius: 100%; 
+  text-align: center; 
+  font-size: 24px; 
+  line-height: 46px; 
 }
 
-/* ICONS */
-i[class="fa fa-facebook"] {
-  border: 5px solid #3B5999;
-  color: #3B5999;
+.list-inline { 
+  padding-left: 0; 
+  list-style: none; 
+  margin-left: -5px; }
+
+.list-inline > li { 
+  display: inline-block;  
+  padding-left: 5px; 
+  padding-right: 5px; 
 }
 
-i[class="fa fa-tumblr"] {
-  border: 5px solid #35465c;
-  color: #35465c;
+.social-links { 
+  -webkit-animation: fade-in-down 0.9s; 
+  animation: fade-in-down 0.9s; 
+  -webkit-animation-delay: 0.2s; 
+  animation-delay: 0.2s; 
 }
 
-i[class="fa fa-twitter"] {
-  border: 5px solid #55acee;
-  color: #55acee;
+/* Animations */
+@-webkit-keyframes fade-in-down { 0% 
+  { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px); 
+  }
+  100% { 
+    opacity: 1; 
+    -webkit-transform: translateY(0); 
+    transform: translateY(0); } }
+@keyframes fade-in-down { 
+  0% { opacity: 0; 
+    -webkit-transform: translateY(-10px); 
+    transform: translateY(-10px); 
+  }
+  100% { opacity: 1; 
+    -webkit-transform: translateY(0); 
+    transform: translateY(0); 
+  } 
 }
 
-i[class="fa fa-google"] {
-  border: 5px solid #d34836;
-  color: #d34836;
-}
-
-i[class="fa fa-instagram"] {
-  border: 5px solid #967553;
-  color: #967553;
-}
-
-i[class="fa fa-pinterest"] {
-  border: 5px solid #C92228;
-  color: #C92228;
-}
-
-i[class="fa fa-github"] {
-  border: 5px solid #e1e1e1;
-  color: #e1e1e1;
+a:hover {
+    text-decoration: line-through;
+    color: #1e1e1e;
 }

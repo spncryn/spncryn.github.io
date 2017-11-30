@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 body {
-    background: #e1e1e1;
+    background: var(--albedo);
     padding: 2rem;
     font-family: 'Inconsolata', sans-serif;
     width: 45%;
@@ -21,21 +20,21 @@ img {
 }
 
 p, h1 {
-        color: #1e1e1e;
+        color: var(--nigredo);
 }
 
 li a.active {
-   color: #b48d22;
+   color: var(--citrinitas);
 }
 
 a {
-    color: #1e1e1e;
+    color: var(--nigredo);
 }
 
 a:hover{
-    color: #b48d22;
+    color: var(--citrinitas);
 }
 
 header nav {
-    color: #b48d22;
+    color: var(--citrinitas);
 }
