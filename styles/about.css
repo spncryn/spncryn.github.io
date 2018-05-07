@@ -5,7 +5,8 @@ body {
     width: 45%;
     margin: auto;
     text-align: justify;
-    line-height: 24px;
+    line-height: 28px;
+    font-size: 26px;
 }
 
 img {
