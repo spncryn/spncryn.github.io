@@ -12,16 +12,12 @@ h2 {
   margin-top: -4%;
 }
 .btn-outline { 
- /*border: solid 1px var(--albedo);
-color: var(--albedo);*/
  font-size: 42px; 
  background: 0 0; 
- transition: all .3s ease-in-out; 
+ transition: all .1s ease-in-out; 
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active { 
-  /*border: solid 1px var(--albedo);   
-  background: var(--albedo); */ 
   color: var(--nigredo); 
 }
 
@@ -29,8 +25,6 @@ color: var(--albedo);*/
   display: inline-block; 
   width: 64px; 
   height: 64px; 
-  /*border: 1px solid var(--albedo); 
-  border-radius: 100%;*/
   text-align: center; 
   font-size: 42px; 
   line-height: 46px; 
@@ -48,8 +42,8 @@ color: var(--albedo);*/
 }
 
 .social-links { 
-  -webkit-animation: fade-in-down 0.9s; 
-  animation: fade-in-down 0.9s; 
+  -webkit-animation: fade-in-down 0.2s; 
+  animation: fade-in-down 0.2s; 
   -webkit-animation-delay: 0.2s; 
   animation-delay: 0.2s; 
 }
@@ -76,4 +70,7 @@ color: var(--albedo);*/
 a:hover {
     text-decoration: line-through;
     color: var(--nigredo);
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
 }
