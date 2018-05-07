@@ -12,7 +12,7 @@ function glitch(ctx) {
     //overly complicated random gen to see if we should draw an rgb split, or a logo
     if (genRandom(1, 40) !== 1) {
         if (genRandom(1, 10) == 10) {
-            ctx.font = '152px Inconsolata';
+            ctx.font = '152px SanFranciscoText-Medium';
             ctx.fillStyle = "rgba(50,50,50,0." + genRandom(2, 4) + ")";
             if (genRandom(1, 2) == 1) {
                 if (genRandom(1, 10) == 1) {
@@ -27,7 +27,7 @@ function glitch(ctx) {
                     ctx.fillText('404', 215 - genRandom(10, 50), 270 - genRandom(10, 50));
                 }
             }
-            ctx.font = '152px Inconsolata';
+            ctx.font = '152px SanFranciscoText-Medium';
             ctx.fillStyle = "rgba(180,141,34,0." + genRandom(2, 4) + ")";
             if (genRandom(1, 2) == 1) {
                 if (genRandom(1, 10) == 1) {
@@ -43,7 +43,7 @@ function glitch(ctx) {
                 }
             }
         } else {
-            ctx.font = '152px Inconsolata';
+            ctx.font = '152px SanFranciscoText-Medium';
             ctx.fillStyle = '#e1e1e1';
             if (genRandom(1, 7) == 1) {
                 if (genRandom(1, 2) == 1) {
@@ -75,7 +75,7 @@ function startGlitch(ctx) {
 // Draw 404.
 $(document).ready(function() {
     var ctx = document.getElementById('canvas').getContext('2d');
-    ctx.font = '152px Inconsolata';
+    ctx.font = '152px SanFranciscoText-Medium';
     ctx.fillStyle = '#888';
     ctx.fillText('404', 200, 270);
     startGlitch(ctx);

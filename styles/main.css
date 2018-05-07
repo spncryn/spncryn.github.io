@@ -64,6 +64,7 @@ ul {
 li {
     display: inline-block;
     margin-left: 20px;
+    color: #808080;
 }
 .hover-space,
 header {
