@@ -74,3 +74,7 @@ a:hover {
         -ms-transform: scale(2);
         transform: scale(2);
 }
+
+li a.active {
+   color: var(--citrinitas);
+}

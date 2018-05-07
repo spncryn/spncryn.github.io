@@ -9,12 +9,11 @@ body {
     width: 45%;
     margin: auto;
     text-align: center;
-    line-height: 32px;
-    font-size: 32px;
+    line-height: 24px;
 }
 
 .center {
-    font-size: 26px;
+    font-size: 32px;
 }
 
 li a.active {
