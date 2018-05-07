@@ -13,6 +13,10 @@ body {
     font-size: 32px;
 }
 
+.center {
+    font-size: 26px;
+}
+
 li a.active {
     color: var(--nigredo);
 }
