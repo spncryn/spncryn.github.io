@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
+/* San Francisco */
+
+@font-face {
+    font-family: 'SanFranciscoText-Regular';
+    src: url('../resources/SanFranciscoText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoText-Medium';
+    src: url('../resources/SanFranciscoText-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoText-Light';
+    src: url('../resources/SanFranciscoText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --nigredo:#1e1e1e;
     --albedo: #e1e1e1;
@@ -51,7 +74,7 @@ header {
     z-index: 99;
     text-align: center;
     height: 70px;
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'SanFranciscoText-Medium', sans-serif;
 }
 /*.hover-space:hover header {
     opacity: 1;
@@ -89,7 +112,7 @@ footer {
     bottom: 20px;
     left: 0;
     right: 0;
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'SanFranciscoText-Medium', sans-serif;
     font-size: 12px;
     line-height: 6px;
     padding-right: 6px;

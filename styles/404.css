@@ -1,12 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+/* San Francisco */
+
+@font-face {
+    font-family: 'SanFranciscoText-Regular';
+    src: url('../resources/SanFranciscoText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoText-Medium';
+    src: url('../resources/SanFranciscoText-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoText-Light';
+    src: url('../resources/SanFranciscoText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face{
-  font-family: 'Inconsolata';
+  font-family: 'SanFranciscoText-Medium';
   font-style: normal;
   font-weight: 300;
 }
 
 body{
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'SanFranciscoText-Medium', sans-serif;
   background:#1e1e1e;
 }
 
