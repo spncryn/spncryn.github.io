@@ -76,16 +76,16 @@ header {
     text-align: center;
     height: 70px;
     font-family: 'SanFranciscoText-Medium', sans-serif;
+    width: 100%;
+    text-align: left;
+    line-height: 56px;
+    text-transform: lowercase;
 }
 /*.hover-space:hover header {
     opacity: 1;
     transition: 0.5s;
 }*/
 header {
-    width: 100%;
-    text-align: left;
-    line-height: 56px;
-    text-transform: lowercase;
     /*opacity: 0;
     transition: 0.5s;
     transition-delay: 0s;
