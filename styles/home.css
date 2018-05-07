@@ -9,11 +9,12 @@ body {
     width: 45%;
     margin: auto;
     text-align: center;
-    line-height: 24px;
 }
 
 .center {
-    font-size: 32px;
+    font-family: 'SanFranciscoText-Light', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
 }
 
 li a.active {
