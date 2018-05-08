@@ -23,6 +23,15 @@
     font-style: normal;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+
+@-ms-viewport {
+  width: device-width ;
+} 
+
 :root {
     --nigredo:#1e1e1e;
     --albedo: #e1e1e1;
