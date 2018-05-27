@@ -5,7 +5,6 @@ body {
     width: 45%;
     margin: auto;
     text-align: justify;
-    line-height: 24px;
 }
 
 img {
@@ -16,7 +15,7 @@ img {
 
 .center{
     padding-top: 7.5%;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
 }
 
