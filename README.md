@@ -2,4 +2,4 @@
 
 ---
 
-[@spncryn](https://spncryn.github.io/home)
+[@spncryn](https://spncryn.github.io)
