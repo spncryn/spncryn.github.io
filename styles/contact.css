@@ -2,6 +2,11 @@ body {
     background: var(--rubedo);
 }
 
+h1 {
+  font-size: 30px;
+  line-height: 32px;
+}
+
 h2 {
   font-family: 'SanFranciscoText-Medium';
   padding: 1em;
