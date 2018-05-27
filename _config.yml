@@ -1,5 +1,5 @@
 name: spncryn
-permalink: /:title
+permalink: /:title/
 
 collections:
   wiki:
