@@ -7,8 +7,8 @@ h1 {
   line-height: 32px;
 }
 
-h2 {
-  font-family: 'SanFranciscoText-Medium';
+p {
+  font-family: 'SanFranciscoText-Regular', sans-serif;
   padding: 1em;
   color: var(--albedo);
 }
