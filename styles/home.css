@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://i.imgur.com/YNAQs3s.png);
+    background-image: url('../resources/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
