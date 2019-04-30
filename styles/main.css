@@ -95,6 +95,7 @@ header .logo {
     left: 32px;
     top:14px;
     color: var(--albedo);
+    font-size: 1vw;
 }
 
 header nav {
@@ -110,7 +111,8 @@ footer {
     bottom: 20px;
     left: 0;
     right: 0;
-    font-family: 'SanFranciscoText-Medium', sans-serif;    font-size: 12px;
+    font-family: 'SanFranciscoText-Medium', sans-serif;    
+    font-size: 12px;
     line-height: 6px;
     padding-right: 6px;
     text-align: center;
