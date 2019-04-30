@@ -8,12 +8,13 @@ body {
 }
 
 img {
+    padding-top: 10%;
     width: 50%;
     height: 50%;
     overflow: hidden;
 }
 
-.center{
+.center {
     padding-top: 7.5%;
     font-size: 20px;
     line-height: 24px;
