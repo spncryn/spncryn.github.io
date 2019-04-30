@@ -67,6 +67,7 @@ h1 {
 
 ul {
     list-style: none;
+    font-size: 1vw;
 }
 li {
     display: inline-block;
@@ -85,7 +86,7 @@ header {
     font-family: 'SanFranciscoText-Medium', sans-serif;
     width: 100%;
     text-align: left;
-    line-height: 56px;
+    line-height: 125%;
     text-transform: lowercase;
 }
 
