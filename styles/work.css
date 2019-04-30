@@ -2,7 +2,7 @@ body {
     background: var(--nigredo);
     padding: 2rem;
     font-family: 'SanFranciscoText-Medium', sans-serif;
-    width: 45%;
+    width: 50%;
     margin: auto;
     text-align: justify;
     line-height: 24px;
@@ -12,12 +12,14 @@ body {
     padding-top: 5%;
 }
 
-li {
+.center li {
     padding-right: -20px;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
 }
 /* GRID */
 
-.projects {
+/*.projects {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     grid-gap: 10px;
@@ -37,7 +39,7 @@ li {
 }
 .box:hover {
     box-shadow: inset 0 0 0 10px var(--albedo);
-}
+}*/
 
 li a.active {
    color: var(--citrinitas);
