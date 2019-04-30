@@ -88,19 +88,7 @@ header {
     line-height: 56px;
     text-transform: lowercase;
 }
-/*.hover-space:hover header {
-    opacity: 1;
-    transition: 0.5s;
-}*/
-header {
-    /*opacity: 0;
-    transition: 0.5s;
-    transition-delay: 0s;
-    -webkit-transition-delay: 0s;
-    animation: fadeout 1s;
-    -webkit-animation: fadeout 1s;
-    -moz-animation: fadeout 1s;*/
-}
+
 header .logo {
     position: absolute;
     left: 32px;
@@ -113,6 +101,7 @@ header nav {
     right: 32px;
     top: -4px;
 }
+
 /* FOOTER */
 
 footer {
@@ -126,52 +115,6 @@ footer {
     padding-right: 6px;
     text-align: center;
     color: var(--citrinitas);
-    /*opacity: 0;
-    transition: 0.5s;
-    transition-delay: 0s;
-    -webkit-transition-delay: 0s;
-    animation: fadeout 1s;
-    -webkit-animation: fadeout 1s;
-    -moz-animation: fadeout 1s;*/
-}
-/*footer:hover {
-    opacity: 1;
-    transition: 0.5s;
-}
-/* Keyframes */
-
-/*@keyframes fadeout {
-    0% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-@-webkit-keyframes fadeout {
-    0% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-@-moz-keyframes fadeout {
-    0% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
 }
 
 /* CENTERED ELEMENTS */
@@ -183,20 +126,22 @@ footer {
     margin: 0 auto;
     position: relative;
     padding-top: 25%;
-    transform: translate(-50%, -50%) 
+}
+    /*transform: translate(-50%, -50%) 
     -webkit-animation: fadein 4s;
+
     /* Safari, Chrome and Opera > 12.1 */
     
-    -moz-animation: fadein 4s;
+    /*-moz-animation: fadein 4s;
     /* Firefox < 16 */
     
-    -ms-animation: fadein 4s;
+    /*-ms-animation: fadein 4s;
     /* Internet Explorer */
     
-    -o-animation: fadein 4s;
+    /*-o-animation: fadein 4s;
     /* Opera < 12.1 */
     
-    animation: fadein 4s;
+    /*animation: fadein 4s;
 }
 @keyframes fadein {
     from {
@@ -208,7 +153,7 @@ footer {
 }
 /* Firefox < 16 */
 
-@-moz-keyframes fadein {
+/*@-moz-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -218,7 +163,7 @@ footer {
 }
 /* Safari, Chrome and Opera > 12.1 */
 
-@-webkit-keyframes fadein {
+/*@-webkit-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -228,7 +173,7 @@ footer {
 }
 /* Internet Explorer */
 
-@-ms-keyframes fadein {
+/*@-ms-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -238,7 +183,7 @@ footer {
 }
 /* Opera < 12.1 */
 
-@-o-keyframes fadein {
+/*@-o-keyframes fadein {
     from {
         opacity: 0;
     }
