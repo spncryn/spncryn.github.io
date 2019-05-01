@@ -84,6 +84,7 @@ header {
     text-align: center;
     height: 70px;
     font-family: 'SanFranciscoText-Medium', sans-serif;
+    font-display:auto;
     width: 100%;
     text-align: left;
     line-height: 125%;
@@ -113,6 +114,7 @@ footer {
     right: 0;
     font-family: 'SanFranciscoText-Medium', sans-serif;    
     font-size: 12px;
+    font-display: auto;
     line-height: 6px;
     padding-right: 6px;
     text-align: center;
