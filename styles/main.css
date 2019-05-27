@@ -40,8 +40,14 @@
 html {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 p {
     color: var(--albedo);
     text-align: center;
