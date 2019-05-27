@@ -1,45 +1,42 @@
 body {
     background: var(--nigredo);
-    padding: 2rem;
     font-family: 'SanFranciscoText-Medium', sans-serif;
-    width: 50%;
+    width: 100%;
     margin: auto;
-    text-align: justify;
-    line-height: 24px;
 }
 
-.center {
-    padding-top: 5%;
+.work {
+    padding: 5%;
 }
 
-.center li {
-    padding-right: -20px;
+.work h1 {
+    text-align: left;   
+    padding: 1rem;
     font-size: 1.5vw;
-    line-height: 1.5vw;
 }
-/* GRID */
 
-/*.projects {
-    display: grid;
-    grid-template-columns: 360px 360px 360px;
-    grid-gap: 10px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-33%, 75%)
+.work li {
+    padding-left: 1rem;
+    font-size: 1.5vw;
+    line-height: 2vw;
 }
-.box {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    font-size: 150%;
-    transition: all 0.3s ease;
+
+.work li .date {
+    font-style: italic;
 }
-.box:hover {
-    box-shadow: inset 0 0 0 10px var(--albedo);
-}*/
+
+.work li .description {
+    opacity: 0;
+    color: var(--citrinitas);
+    -webkit-transition: opacity 1ms;
+    -moz-transition: opacity 1ms;
+    -o-transition: opacity 1ms;
+    transition: opacity 1ms;
+}
+
+.work li:hover .description {
+    opacity: 1;
+}
 
 li a.active {
    color: var(--citrinitas);
@@ -51,4 +48,15 @@ a:hover{
 
 header nav {
     color: var(--citrinitas);
+}
+
+/*
+.center {
+    padding-top: 5%;
+}
+
+.center li {
+    padding-right: -20px;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
 }
