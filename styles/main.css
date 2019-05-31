@@ -71,14 +71,13 @@ h1 {
 }
 
 /* HEADER */
-
 ul {
     list-style: none;
     font-size: 1vw;
 }
 li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 2vw;
     color: #808080;
 }
 .hover-space,
@@ -89,7 +88,7 @@ header {
     right: 0;
     z-index: 99;
     text-align: center;
-    height: 70px;
+    height: 4vw;
     font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;
     font-display:auto;
     width: 100%;
@@ -100,32 +99,16 @@ header {
 
 header .logo {
     position: absolute;
-    left: 32px;
-    top:14px;
+    left: 2vw;
+    top: 1vw;
     color: var(--albedo);
     font-size: 1vw;
 }
 
 header nav {
     position: absolute;
-    right: 32px;
-    top: -4px;
-}
-
-/* FOOTER */
-
-footer {
-    position: fixed;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;    
-    font-size: 12px;
-    font-display: auto;
-    line-height: 6px;
-    padding-right: 6px;
-    text-align: center;
-    color: var(--citrinitas);
+    right: 2vw;
+    top: -0.5vw;
 }
 
 /* CENTERED ELEMENTS */
@@ -137,4 +120,18 @@ footer {
     margin: 0 auto;
     position: relative;
     padding-top: 25%;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 1.5vw;
+    left: 2vw;
+    right: 0;
+    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;    
+    font-size: 1rem;
+    font-display: auto;
+    line-height: 1rem;
+    text-align: center;
+    color: var(--citrinitas);
 }
