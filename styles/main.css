@@ -121,7 +121,7 @@ header nav {
 /* FOOTER */
 footer {
     position: fixed;
-    bottom: 1vw;
+    bottom: 0vw;
     left: 0;
     right: 0;
     font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;    

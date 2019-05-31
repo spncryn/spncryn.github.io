@@ -34,13 +34,17 @@ a:hover {
   li a {
     color: var(--nigredo);
     }
-header .logo a {
-    color: var(--nigredo);
-  }
+  header .logo a {
+      color: var(--nigredo);
+    }
 }
 
 @media (min-width: 769px) {
   body {
     background-image: url('../resources/waves.gif');
   }
+}
+
+footer {
+  background-color: var(--nigredo);
 }

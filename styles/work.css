@@ -56,5 +56,6 @@ header nav {
 }
 
 footer {
-    color:var(--rubedo);
+    color:var(--nigredo);
+    background-color: var(--citrinitas);
 }

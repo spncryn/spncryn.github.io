@@ -84,3 +84,7 @@ a:hover {
 li a.active {
    color: var(--citrinitas);
 }
+
+footer {
+  background-color: var(--rubedo);
+}
