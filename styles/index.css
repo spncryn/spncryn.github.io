@@ -1,10 +1,10 @@
 body {
-    /*background-image: url('../resources/bg.png');
+    /*background-color: var(--nigredo);*/
+    background-image: url('../resources/waves.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;*/
-    background-color: var(--nigredo);
+    background-position: center top;
     padding: 2rem;
     font-family: 'SanFranciscoText-Medium', sans-serif;
     width: 45%;
@@ -14,11 +14,19 @@ body {
 
 .center {
     font-family: 'SanFranciscoText-Light', sans-serif;
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
     color: var(--albedo);
 }
 
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -6vw;
+    width:100%;
+    height:auto;
+}
 li a.active {
     color: var(--citrinitas);
 }
