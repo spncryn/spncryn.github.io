@@ -1,6 +1,6 @@
 body {
     background-color: var(--nigredo);
-    background-size: cover;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -17,15 +17,6 @@ body {
     line-height: 1.5vw;
     color: var(--albedo);
 }
-
-.center img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -6vw;
-    width:100%;
-    height:auto;
-}
 li a.active {
     color: var(--citrinitas);
 }
@@ -34,21 +25,20 @@ a:hover {
     color: var(--citrinitas);
 }
 
-header nav {
-    color: var(--nigredo);
-}
-
 @media (max-width: 768px) {
   body {
-    background-image: url("../resources/hole.png");
+    background-image: url('../resources/hole.png');
+    background-size: cover;
+    background-position: center top;
   }
-  header .logo {
+  li a {
     color: var(--nigredo);
-  }
-  header li {
+    }
+header .logo a {
     color: var(--nigredo);
   }
 }
+
 @media (min-width: 769px) {
   body {
     background-image: url('../resources/waves.gif');

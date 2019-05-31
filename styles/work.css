@@ -17,13 +17,13 @@ li {
     color: var(--nigredo);
     text-align: left;   
     padding: 1rem;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .work li {
     padding-left: 1rem;
-    font-size: 1.5vw;
-    line-height: 2vw;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .work li .date {
@@ -48,20 +48,13 @@ li a.active {
 }
 
 a:hover{
-    color: var(--nigredo);
+    color: var(--rubedo );
 }
 
 header nav {
     color: var(--rubedo);
 }
 
-/*
-.center {
-    padding-top: 5%;
-}
-
-.center li {
-    padding-right: -20px;
-    font-size: 1.5vw;
-    line-height: 1.5vw;
+footer {
+    color:var(--rubedo);
 }
