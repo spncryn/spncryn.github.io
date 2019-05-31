@@ -1,15 +1,25 @@
 body {
-    /*background-color: var(--nigredo);*/
-    background-image: url('../resources/waves.gif');
+    background-color: var(--nigredo);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     padding: 2rem;
-    font-family: 'SanFranciscoText-Medium', sans-serif;
+    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;
     width: 45%;
     margin: auto;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../resources/hole.png");
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url('../resources/waves.gif');
+  }
 }
 
 .center {
