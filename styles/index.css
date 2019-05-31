@@ -1,9 +1,10 @@
 body {
-    background-image: url('../resources/bg.png');
+    /*background-image: url('../resources/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center top;*/
+    background-color: var(--nigredo);
     padding: 2rem;
     font-family: 'SanFranciscoText-Medium', sans-serif;
     width: 45%;
@@ -15,16 +16,18 @@ body {
     font-family: 'SanFranciscoText-Light', sans-serif;
     font-size: 2vw;
     line-height: 2vw;
+    color: var(--albedo);
 }
 
 li a.active {
-    color: var(--nigredo);
+    color: var(--citrinitas);
 }
 
 a:hover {
-    color: var(--nigredo);
+    color: var(--citrinitas);
 }
 
 header nav {
-    color: var(--albedo);
+    color: var(--nigredo);
 }
+
