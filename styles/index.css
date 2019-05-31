@@ -11,17 +11,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-image: url("../resources/hole.png");
-  }
-}
-@media (min-width: 769px) {
-  body {
-    background-image: url('../resources/waves.gif');
-  }
-}
-
 .center {
     font-family: 'SanFranciscoText-Light', sans-serif;
     font-size: 1.5vw;
@@ -49,3 +38,19 @@ header nav {
     color: var(--nigredo);
 }
 
+@media (max-width: 768px) {
+  body {
+    background-image: url("../resources/hole.png");
+  }
+  header .logo {
+    color: var(--nigredo);
+  }
+  header li {
+    color: var(--nigredo);
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-image: url('../resources/waves.gif');
+  }
+}
