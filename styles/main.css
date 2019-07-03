@@ -42,6 +42,7 @@ html {
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
+    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -50,12 +51,10 @@ html {
 }
 
 p {
-    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
 }
 a {
-    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
@@ -64,7 +63,6 @@ a:hover {
     text-decoration: line-through;
 }
 h1 {
-    color: var(--albedo);
     text-align: center;
     margin: 0 auto;
     padding: 2em;
@@ -78,7 +76,6 @@ ul {
 li {
     display: inline-block;
     margin-left: 2vw;
-    color: #808080;
 }
 header {
     position: absolute;
@@ -99,7 +96,7 @@ header .logo {
     position: absolute;
     left: 4vw;
     top: 12px;
-    color: var(--albedo);
+
 }
 
 header nav {
@@ -129,5 +126,4 @@ footer {
     font-display: auto;
     line-height: 1rem;
     text-align: center;
-    color: var(--citrinitas);
 }

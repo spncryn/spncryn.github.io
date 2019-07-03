@@ -43,18 +43,33 @@ li {
     opacity: 1;
 }
 
-li a.active {
-   color: var(--nigredo);
+li a {
+    color: var(--albedo);
 }
 
-a:hover{
-    color: var(--rubedo );
+li a.active {
+    color: var(--nigredo);
+}
+
+a:hover {
+    color: var(--rubedo);
+}
+
+header {
+    color: var(--albedo);
 }
 
 header nav {
     color: var(--rubedo);
 }
 
+header .logo {
+    color: var(--albedo);
+}
+
+header .logo:hover {
+    color: var(--citrinitas);
+}
 footer {
     color:var(--nigredo);
     background-color: var(--citrinitas);

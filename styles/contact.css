@@ -7,12 +7,6 @@ h1 {
   line-height: 32px;
 }
 
-p {
-  font-family: 'SanFranciscoText-Regular', sans-serif;
-  padding: 1em;
-  color: var(--albedo);
-}
-
 .center {
   margin-top: -4%;
 }
@@ -23,8 +17,16 @@ p {
  transition: all .1s ease-in-out; 
 }
 
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active { 
-  color: var(--nigredo); 
+a {
+    color: var(--albedo);
+}
+
+a.active {
+    color: var(--citrinitas);
+}
+
+a:hover {
+    color: var(--citrinitas);
 }
 
 .btn-social { 
@@ -74,17 +76,19 @@ p {
 }
 
 a:hover {
-    text-decoration: line-through;
-    color: var(--nigredo);
     -webkit-transform: scale(2);
         -ms-transform: scale(2);
         transform: scale(2);
 }
 
-li a.active {
-   color: var(--citrinitas);
+header .logo {
+    color: var(--albedo);
 }
 
+header .logo:hover {
+    color: var(--citrinitas);
+}
 footer {
+  color: var(--citrinitas);
   background-color: var(--rubedo);
 }

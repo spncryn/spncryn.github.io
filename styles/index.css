@@ -11,10 +11,7 @@ body {
     text-align: center;
 }
 
-.center {
-    font-family: 'SanFranciscoText-Light', sans-serif;
-    font-size: 1.5vw;
-    line-height: 1.5vw;
+a {
     color: var(--albedo);
 }
 li a.active {
@@ -22,6 +19,14 @@ li a.active {
 }
 
 a:hover {
+    color: var(--citrinitas);
+}
+
+header .logo {
+    color: var(--albedo);
+}
+
+header .logo:hover {
     color: var(--citrinitas);
 }
 
@@ -45,6 +50,6 @@ a:hover {
   }
 }
 
-/*footer {
-  background-color: var(--nigredo);
+footer {
+  color: var(--albedo);
 }

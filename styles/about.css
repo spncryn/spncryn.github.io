@@ -39,3 +39,11 @@ a:hover{
 header nav {
     color: var(--citrinitas);
 }
+
+header .logo {
+    color: var(--nigredo);
+}
+
+header .logo:hover {
+    color: var(--citrinitas);
+}
