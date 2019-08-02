@@ -63,14 +63,11 @@ header nav {
     color: var(--rubedo);
 }
 
-header .logo {
-    color: var(--albedo);
+.logo {
+    color: var(--nigredo);
 }
 
-header .logo:hover {
-    color: var(--citrinitas);
-}
 footer {
-    color:var(--nigredo);
+    color: var(--nigredo);
     background-color: var(--citrinitas);
 }
