@@ -1,35 +1,5 @@
 /* San Francisco */
-
-@font-face {
-    font-family: 'SanFranciscoText-Regular';
-    src: url('../resources/SanFranciscoText-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SanFranciscoText-Medium';
-    src: url('../resources/SanFranciscoText-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SanFranciscoText-Light';
-    src: url('../resources/SanFranciscoText-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@viewport {
-  width: device-width;
-  zoom: 1.0;
-} 
-
-@-ms-viewport {
-  width: device-width;
-} 
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 :root {
     --nigredo:#1e1e1e;
     --albedo: #e1e1e1;
@@ -42,22 +12,22 @@ html {
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
-    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    line-height: 24px;
 }
-
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
-
 p {
-    text-align: center;
     margin: 0 auto;
+    text-align: justify;
+    text-justify: auto;
 }
 a {
-    text-align: center;
-    margin: 0 auto;
     text-decoration: none;
+    color: var(--nigredo);
 }
 a:hover {
     text-decoration: line-through;
@@ -67,63 +37,34 @@ h1 {
     margin: 0 auto;
     padding: 2em;
 }
-
-/* HEADER */
-ul {
-    list-style: none;
-    font-size: 1rem;
-}
-li {
-    display: inline-block;
-    margin-left: 2vw;
-}
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    text-align: center;
-    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;
-    font-display:auto;
-    font-size: 1rem;
-    width: 100%;
-    text-align: left;
-    text-transform: lowercase;
-}
-
-header .logo {
-    position: absolute;
-    left: 4vw;
-    top: 12px;
-
-}
-
-header nav {
-    position: absolute;
-    right: 4vw;
-}
-
-/* CENTERED ELEMENTS */
 .center {
-    font-size: 20px;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
     margin: 0 auto;
     position: relative;
-    padding-top: 25%;
+}
+body {
+    background-color: var(--albedo);
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
 }
 
-/* FOOTER */
-footer {
-    position: fixed;
-    bottom: 0vw;
-    left: 0;
-    right: 0;
-    font-family: 'SanFranciscoText-Medium', Helvetica, Arial, sans-serif;    
-    font-size: 1rem;
-    font-display: auto;
-    line-height: 1rem;
-    text-align: center;
+@media (max-width: 768px) {
+    body {
+        width: 80%;
+    }
+    .center {
+        padding-top: 2.5%;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        width: 45%;
+    }
+    .center {
+        padding-top: 15%;
+    }
 }
