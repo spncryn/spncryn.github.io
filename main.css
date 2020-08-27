@@ -1,1 +1,89 @@
-html{height:100%;width:100%;overflow:scroll;overflow-x:hidden;font-family:Inconsolata, monospace;font-size:20px;line-height:24px}::-webkit-scrollbar{width:0;background:0 0}header{display:flex;justify-content:center;align-items:center}a{text-decoration:none;color:#000}a:hover{text-decoration:line-through}h1{text-align:center;margin:0 auto;padding:2em}.center{text-align:justify;-moz-text-align-last:center;text-align-last:center;margin:0 auto;position:relative}body{background-color:#fff;margin:auto;text-align:center}@media (max-width:768px){body{padding-top:5%;padding-bottom:5%;width:75%}.center{padding-top:2.5%}}@media (min-width:769px){body{padding-top:2.5%;padding-bottom:2.5%;width:45%}.center{padding-top:15%}}ul{padding:0;margin:0;display:inline-block;text-align:left;width:100%;column-width:72px}ul li{list-style:none;text-align:center}
+html {
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+	font-family: Inconsolata, monospace;
+	font-size: 20px;
+	line-height: 24px
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	background: 0 0
+}
+
+body {
+	background-color: #fff;
+	margin: auto;
+	text-align: center
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+a:hover {
+	text-decoration: line-through
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em
+}
+
+.center {
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
+	margin: 0 auto;
+	position: relative
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	column-width: 72px
+}
+
+ul li {
+	list-style: none;
+	text-align: center
+}
+
+@media (max-width:768px) {
+	body {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		width: 80%;
+	}
+	.center {
+		padding-top: 15%;
+		padding-bottom:15%;
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
+
+@media (min-width:769px) {
+	body {
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		width: 45%
+	}
+	.center {
+		padding-top: 15%;
+		padding-bottom:15%;
+	}
+}
